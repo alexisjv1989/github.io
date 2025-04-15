@@ -43,7 +43,7 @@ Este repositorio contiene mi portafolio profesional donde muestro mis proyectos 
 ## 📱 Información de Contacto
 
 - Email: alejv89@gmail.com
-- LinkedIn: [[Alexis Jiménez](https://www.linkedin.com/in/alexis-jim%C3%A9nez-vejar-8899a811b/)]
+- LinkedIn: [Alexis Jiménez](https://www.linkedin.com/in/alexis-jim%C3%A9nez-vejar-8899a811b/)
 - GitHub: [Alexis Jiménez](https://github.com/alexisjv1989)
 
 ## 📊 Estadísticas del Repositorio
@@ -57,4 +57,4 @@ Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE.md](LICENSE.m
 
 ---
 
-⭐️ Por [Tu Nombre](https://github.com/tu-usuario)
+⭐️ Por [Alexis Jimenez](https://github.com/alexisjv1989)
