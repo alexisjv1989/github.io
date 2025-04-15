@@ -335,6 +335,67 @@
                 font-size: 2rem;
             }
         }
+        /* Estos son los estilos que puedes añadir o modificar en tu archivo index.html */
+
+        /* Gradiente para el hero section */
+        .hero {
+            background: linear-gradient(135deg, #2980b9, #6dd5fa, #ffffff);
+            background-size: 400% 400%;
+            animation: gradient-animation 15s ease infinite;
+        }
+        
+        @keyframes gradient-animation {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+        
+        /* Gradiente para botones */
+        .cta-button {
+            background: linear-gradient(to right, #0066cc, #4e9af5);
+            transition: background 0.3s ease;
+        }
+        
+        .cta-button:hover {
+            background: linear-gradient(to right, #004c99, #3a7bc0);
+        }
+        
+        /* Gradiente para las barras de habilidades */
+        .skill-progress {
+            background: linear-gradient(to right, #0066cc, #4e9af5);
+        }
+        
+        /* Gradiente para el fondo de proyectos */
+        .projects {
+            background: linear-gradient(to bottom, #f5f5f5, #e0e0e0);
+        }
+        
+        /* Gradiente para las tarjetas de proyectos al hacer hover */
+        .project-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+            background: linear-gradient(to bottom right, #ffffff, #f0f7ff);
+        }
+        
+        /* Gradiente para los botones sociales */
+        .social-links a {
+            background: linear-gradient(135deg, #0066cc, #4e9af5);
+        }
+        
+        .social-links a:hover {
+            background: linear-gradient(135deg, #004c99, #3a7bc0);
+        }
+        
+        /* Gradiente para el footer */
+        footer {
+            background: linear-gradient(to right, #2c3e50, #4a6787);
+        }
     </style>
     <!-- Font Awesome para iconos -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -355,14 +416,14 @@
         </div>
     </header>
 
-    <!-- Sección Hero -->
+    <!-- Sección Hero con Gradiente Animado -->
     <section class="hero" id="home">
         <div class="container">
             <div class="hero-content">
                 <div class="hero-text">
-                    <h1>Hola, soy Alexis Jiménez</h1>
+                    <h1>Hola, soy Tu Nombre</h1>
                     <h2>Desarrollador Web Full Stack</h2>
-                    <p>Apasionado por crear soluciones digitales innovadoras. Especializado en desarrollo web, experiencia de usuario y tecnologías emergentes. Curanilahue, Region del Bío Bio, Chile.</p>
+                    <p>Apasionado por crear soluciones digitales innovadoras. Especializado en desarrollo web, experiencia de usuario y tecnologías emergentes.</p>
                     <a href="#contact" class="cta-button">Contáctame</a>
                 </div>
                 <div class="hero-image">
